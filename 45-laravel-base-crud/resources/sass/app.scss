@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  color: rgb(82, 240, 79);
+  // > * {
+  //   margin: auto;
+  // }
+  & > * {
+    margin: auto;
+  }
+}
+
+.title {
+  text-align: center;
+  background: green;
+  color: black;
+}
+
+a {
+  color: red;
+}
+
+footer {
+  background: red;
+}
